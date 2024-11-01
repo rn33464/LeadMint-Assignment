@@ -1,0 +1,36 @@
+/* Container for input and label */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  /* Label styling */
+  .input-label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Input field styling */
+  .input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Error state styling */
+  .input-field.input-error {
+    border-color: #e63946;
+  }
+  
+  /* Error message styling */
+  .input-error-message {
+    font-size: 12px;
+    color: #e63946;
+    margin-top: 5px;
+  }
+  
